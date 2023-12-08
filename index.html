@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+  margin: 0;
+  padding: 0;
+  /* Mengatur background foto */
+  background-image: url('background6.jpg'); /* Ganti 'nama-file-foto.jpg' dengan nama file foto yang ingin digunakan */
+  background-size: cover; /* Menyesuaikan ukuran foto agar memenuhi layar */
+  background-position: center; /* Menyeting posisi foto di tengah layar */
+  background-attachment: fixed; /* Untuk tetap mempertahankan foto pada tempatnya saat halaman di-scroll */
+  color: aliceblue;
+}
+.container{
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <script>
+        var nama = prompt("Siapa nama kamu?","");
+        prompt(`Hello ${nama}, apakah hari ini kamu ulang tahun?`);
+        let kondisi = true;
+        var kondisi1 = false;
+        if(kondisi){
+            document.write(`<p>Selamat ulang tahun ${nama}, semoga panjang umur dan sehat selalu, dan terus berbakti kepada kedua orang tua mu jangan pernah menyakiti hati kedua orang tua mu,Semangat Terus ya,Terima kasih atas kenangan manis, waktu khusus, dan untuk semua yang kamu lakukan untukku. Aku tahu kita tidak bersama lagi, tapi aku harap aku tidak melewati batas ketika aku mengucapkan selamat ulang tahun yang tulus, semoga semua keinginanmu menjadi kenyataan Amiin🤲. Senang kita masih berteman.Aku masih memikirkanmu sepanjang waktu, di hari ulang tahunmu dan setiap hari. Aku berharap suatu hari nanti kita bisa bersama lagi. Aku sangat berterima kasih atas saat-saat yang kita bagikan bersama. Dan sekarang setelah kita berpisah, aku masih bersyukur kepada Tuhan untukmu.SELAMAT ULANG TAHUN ${nama}💐🎂 </p>`);
+        } else if(kondisi1){
+            document.write("yaudah makasii udah di buka");
+        } else{
+        }
+        </script>
+    <div class="container">
+        <audio controls>
+            <source src="penjaga-hati(3).mp3">
+        </audio>
+    </div>
+</body>
+</html>
